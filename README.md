@@ -1,2 +1,3 @@
-# SatDump-WinXP-Deps
-Dependencies for SatDump on 32-Bit Windows XP
+# SatDump Windown XP Dependencies
+
+These are 32-Bit Windows XP dependencies. No support will be given for this repo.
