@@ -1,0 +1,11 @@
+prefix=C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: AirSpy HF+ Library
+Description: C Utility Library
+Version: 1.8
+Cflags: -I${includedir}/libairspyhf/ -IC:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/include/libusb-1.0
+Libs: -L${libdir} -lairspyhf -lm
+Libs.private: 
