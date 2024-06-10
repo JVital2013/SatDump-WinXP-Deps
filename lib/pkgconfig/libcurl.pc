@@ -29,7 +29,7 @@ prefix=C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows
 exec_prefix=${prefix}
 libdir=C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib
 includedir=${prefix}/include
-supported_protocols="DICT FILE FTP FTPS GOPHER GOPHERS HTTP HTTPS IMAP IMAPS IPFS IPNS LDAP LDAPS MQTT POP3 POP3S RTSP SMB SMBS SMTP SMTPS TELNET TFTP"
+supported_protocols="HTTP HTTPS IPFS IPNS"
 supported_features="SSL IPv6 UnixSockets libz AsynchDNS Largefile alt-svc HSTS NTLM HTTPS-proxy"
 
 Name: libcurl
@@ -37,5 +37,5 @@ URL: https://curl.se/
 Description: Library to transfer files with ftp, http, etc.
 Version: 8.8.1-DEV
 Libs: -L${libdir} -lcurl 
-Libs.private:  -lws2_32 C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/mbedtls.lib C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/mbedx509.lib C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/mbedcrypto.lib C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/zlib.lib -lwldap32 -ladvapi32 -lcrypt32
+Libs.private:  -lws2_32 C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/mbedtls.lib C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/mbedx509.lib C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/mbedcrypto.lib C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows/lib/zlib.lib -ladvapi32 -lcrypt32
 Cflags: -I${includedir} 

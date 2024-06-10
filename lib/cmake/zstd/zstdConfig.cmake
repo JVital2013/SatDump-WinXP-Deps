@@ -25,7 +25,7 @@ endmacro()
 ####################################################################################
 
 include(CMakeFindDependencyMacro)
-if(OFF AND "")
+if(ON AND "")
   find_dependency(Threads)
 endif()
 
