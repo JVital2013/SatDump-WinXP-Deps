@@ -18,6 +18,9 @@ cmake .. -G "Visual Studio 17 2022" -A Win32 -T v141_xp -DBUILD_SHARED_LIBS=ON -
 
 cmake .. -G "Visual Studio 17 2022" -A Win32 -T v141_xp -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX="C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows" -DCMAKE_FIND_ROOT_PATH="C:/Users/Jamie/Documents/Programs/SatDump/vcpkg/installed/x64-windows" -DTEST_LIBBLADERF=OFF
 
+### HDF5
+cmake .. -G "Visual Studio 17 2022" -A Win32 -T v141_xp -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX="C:/Users/jvita/Programs/SatDump/vcpkg/installed/x64-windows" -DCMAKE_FIND_ROOT_PATH="C:/Users/jvita/Programs/SatDump/vcpkg/installed/x64-windows" -DBUILD_TESTING=OFF -DHDF5_BUILD_TOOLS=OFF -DHDF5_TEST_PLUGIN=OFF -DHDF5_BUILD_EXAMPLES=OFF
+
 ### MBedTLS
 
 git clone https://github.com/Mbed-TLS/mbedtls -b v3.4.1
